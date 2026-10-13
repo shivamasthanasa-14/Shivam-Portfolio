@@ -1,4 +1,4 @@
-# Shivam Asthana — Personal Portfolio
+# Shivam Asthana: Personal Portfolio
 
 Static personal portfolio with a homepage and three business-problem-first case studies. The existing HTML/CSS design is preserved; no backend, API keys, JavaScript, or running sibling applications are required.
 
@@ -24,9 +24,10 @@ FounderOS uses existing actual captures. RetainIQ and ScaleFlow now each have a 
 RetainIQ's prepared responses replay recorded AI results; they are not fresh generation. ScaleFlow's pictured investigation is deterministic and not a verified live AI-agent execution. Optional local models are described only where implemented. No impact metrics or production-use claims are added.
 
 ## Contact
-[GitHub profile](https://github.com/shivamasthanasa-14) is active. LinkedIn and professional email remain labelled placeholders until explicitly confirmed for public contact. The Git commit author email is not displayed as a contact address.
+[GitHub profile](https://github.com/shivamasthanasa-14) and [professional email](mailto:shivamasthana.sa@gmail.com) are the public contact links. LinkedIn is omitted.
 
-## GitHub Pages preparation
-The existing repository is [Shivam-Portfolio](https://github.com/shivamasthanasa-14/Shivam-Portfolio), branch main, with index.html at the root and .nojekyll present. When publication is authorized, use Settings → Pages → Deploy from a branch → main → / (root). No build step or custom domain is required.
+## GitHub Pages
 
-GitHub Pages remains disabled during this preparation. The application links lead to the separate Streamlit deployments; Pages only serves the portfolio. Edit the HTML pages for content and assets/styles.css for shared styling.
+The existing repository is [Shivam-Portfolio](https://github.com/shivamasthanasa-14/Shivam-Portfolio), branch main, with index.html at the root and .nojekyll present. The existing GitHub Pages configuration is retained. Updates are pushed to main for the existing publishing workflow; no hosting settings are changed. No build step or custom domain is required.
+
+The homepage introduces the author before Selected Work. Each project card links directly to its application and case study. Case studies explain the business context, workflow, and demonstration limitations; ScaleFlow includes the six-stage blood-testing pathway. Application links lead to separate Streamlit deployments. Edit the HTML pages for content and assets/styles.css for shared styling.
