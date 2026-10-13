@@ -1,32 +1,32 @@
 # Shivam Asthana — Personal Portfolio
 
-A static personal portfolio introducing Shivam Asthana, selected work, professional background, and contact options. Includes a homepage and dedicated FounderOS, RetainIQ, and ScaleFlow case studies.
+Static personal portfolio with a homepage and three business-problem-first case studies. The existing HTML/CSS design is preserved; no backend, API keys, JavaScript, or running sibling applications are required.
 
-## Run locally
-Open `index.html` directly in a browser, or run this from the repository root:
+## Local preview
+Open index.html in a browser, or run this from the repository root:
 
 ```bash
 python -m http.server 8080 --bind 127.0.0.1
 ```
 
-Visit http://127.0.0.1:8080. The website uses HTML and CSS, with no JavaScript required. No build step, backend, API keys, Python package dependencies, or running Streamlit applications are needed.
+Visit http://127.0.0.1:8080. All CSS, favicon, image, and page references are relative and support a GitHub Pages project subdirectory.
 
-## Files and updates
-- `index.html`: introduction, selected work, about, and contact.
-- `founderos.html`, `retainiq.html`, `scaleflow.html`: individual case studies.
-- `assets/styles.css`, favicon, and screenshot assets: shared presentation.
-- `.nojekyll`: static GitHub Pages configuration.
+## Project links
+- [FounderOS application](https://founder-portfolio.streamlit.app/) · [source](https://github.com/shivamasthanasa-14/FounderOS)
+- [RetainIQ application](https://retainiqcus.streamlit.app/) · [source](https://github.com/shivamasthanasa-14/RetainIQ)
+- [ScaleFlow application](https://scaleflow.streamlit.app/) · [source](https://github.com/shivamasthanasa-14/ScaleFlow)
 
-Reuse the existing project-card markup for future work. All internal page and asset references are relative, including the copied application screenshots; nothing reads from sibling application folders.
+The application identities and expected interfaces were verified in the browser during this update. These are public portfolio demonstrations using fictional records, not commercial software or operational deployments inside real businesses. Availability can change after verification.
 
-## Content status
-FounderOS has actual desktop captures and ScaleFlow has an existing mobile evidence capture, all using fictional demonstration data. RetainIQ and the ScaleFlow overview use clearly labelled screenshot placeholders. Replace those with real captures when available. Contact details and public application/source destinations remain unavailable plain text until exact links are provided.
+## Screenshots and AI descriptions
+FounderOS uses existing actual captures. RetainIQ and ScaleFlow now each have a useful overview and feature screenshot captured from isolated local copies of the existing applications. All show synthetic demonstration data. The application repositories were not modified.
 
-Case studies describe portfolio prototypes without deployment or performance claims. ScaleFlow's optional local investigation is described without claiming verified live autonomy.
+RetainIQ's prepared responses replay recorded AI results; they are not fresh generation. ScaleFlow's pictured investigation is deterministic and not a verified live AI-agent execution. Optional local models are described only where implemented. No impact metrics or production-use claims are added.
 
-## GitHub Pages — when publication is authorized
-1. Create the intended repository and push these prepared files with `index.html` at its root.
-2. In Settings → Pages, choose Deploy from a branch, then `main` and `/ (root)`.
-3. Save and use the URL GitHub provides. Relative paths support project-site subdirectories.
+## Contact
+[GitHub profile](https://github.com/shivamasthanasa-14) is active. LinkedIn and professional email remain labelled placeholders until explicitly confirmed for public contact. The Git commit author email is not displayed as a contact address.
 
-GitHub Pages serves this website only; it cannot execute the three Python applications. No GitHub repository or deployment was created during local preparation. Final screenshots, contact details, and application/source links still need content updates before publication.
+## GitHub Pages preparation
+The existing repository is [Shivam-Portfolio](https://github.com/shivamasthanasa-14/Shivam-Portfolio), branch main, with index.html at the root and .nojekyll present. When publication is authorized, use Settings → Pages → Deploy from a branch → main → / (root). No build step or custom domain is required.
+
+GitHub Pages remains disabled during this preparation. The application links lead to the separate Streamlit deployments; Pages only serves the portfolio. Edit the HTML pages for content and assets/styles.css for shared styling.
